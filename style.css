@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: antiquewhite;
+    margin: 5vw;
+    padding-right: 5vw;
+} */
+#wrapper{
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    padding: 2.083vw
+
+    ;
+    display: flex;
+    gap: 12vw;
+    justify-content: center;
+    font-family: "Work Sans", serif;
+    
+}
+#main-div{
+    margin: 1.042vw;
+    display: flex;
+    flex-direction: column;
+    gap: 13vw;
+
+}
+#head-div h1{
+    font-size: 4vw;
+    font-family: "Work Sans", serif;
+    font-weight: 400;
+    padding-top: 4vw;
+}
+#sec-div{
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+#para-div{
+   display: flex;
+   flex-direction: column;
+   gap: 1.563vw;
+
+}
+.border{
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 1.042vw 1.042vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.104vw;
+   
+}
+.border p{
+    color: black;
+    font-weight: 400;
+
+}
+.shade-div{
+    display: flex;
+    gap: 0.208vw;
+}
+.div1, .div2{
+    height: 0.781vw;
+    width: 0.781vw;
+    border-radius: 50%;
+
+}
+.shade-div .div1{
+    background-color: rgb(136, 130, 120);
+
+}
+.shade-div .div2{
+    background-color: cadetblue;
+    
+}
+#mainpara{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 25vw;
+}
+#mainpara h3{
+    font-size: 0.781vw;
+    font-family: "Work Sans", serif;
+    font-weight: 600;
+}
+#img-div{
+    gap: 0.781vw;
+    height: 40vw;
+    width: 30vw;
+    padding-right: 8vw;
+    padding-top: 5vw;
+
+}
+.img{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1598137203988-80de6392fc1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1ciUyMGphY2tldHxlbnwwfDF8MHx8fDA%3D);
+    filter: grayscale(50%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.417vw;
+
+}
+.updiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.417vw;
+    
+}
+.updiv h3{
+    font-family: "Work Sans", serif;
+    font-weight: 500;
+}
+
+.side-divs{
+    display: flex;
+    justify-content: space-between;
+    gap:16vw;
+}
+
+.head{
+display: flex;
+position: absolute;
+right:39%;
+top: 70%;
+}
+
+.side-divs h2{
+    font-size: 1.5vw;
+}
+.side-divs h2{
+transform: rotate(-90deg);
+font-family: "Work Sans", serif;
+font-weight: 500;
+
+}
+.bagdiv{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 32%;
+    right: 19.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7.292vw;
+    width: 7.292vw;
+    border-radius: 50%;
+    
+
+}
+.bagdiv:hover{
+    background-color: rgb(230, 241, 74);
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+
+}
+.img:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+    border-radius: 0.417vw; /* Optional: Rounds the corners */
+    filter: drop-shadow(rebeccapurple);
+}
+.updiv i:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+    border-radius: 0.417vw; /* Optional: Rounds the corners */
+    filter: drop-shadow(rebeccapurple);
+}
+
+@media (max-width:1290px){
+
+    .bagdiv{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 1vw;
+    top: 22%;
+    right: 20.5%;
+    }
+
+    .updiv{
+        font-size: 1vw;
+
+    }
+
+    .head{
+       
+        right:40%;
+        top: 50%;
+        font-size: 1vw;
+        
+        }
+        
+    #mainpara {
+        font-size: 1vw;
+
+        }
+
+    #mainpara h3 {
+        font-size: 2vw;
+    
+            }
+
+
+    .bagdiv:hover{
+                background-color: rgb(230, 241, 74);
+                font-size: 80%;
+                color: rgb(0, 0, 0);
+                font-weight: 700;
+            
+            }
+    .img:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    .updiv i:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    
+
+     .border{
+                border: 1px solid black;
+                width: 70px;
+                border-radius: 20px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 2px;
+               
+            }
+    .border p{
+                color: black;
+                font-weight: 500;
+            
+            }
+            .shade-div{
+                display: flex;
+                gap: 2px;
+            }
+            .div1, .div2{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+            
+            }
+
+            #para-div{
+                gap: 10px;
+            }
+            
+            
+}
+
+@media (max-width:990px){
+
+    .bagdiv{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 0.8vw;
+    top: 14%;
+    right: 20.5%;
+    }
+
+    .updiv{
+        font-size: 1vw;
+
+    }
+
+    .head{
+       
+        right:40%;
+        top: 30%;
+        font-size: 1vw;
+        
+        }
+        
+    #mainpara {
+        font-size: 1vw;
+
+        }
+
+    #mainpara h3 {
+        font-size: 2vw;
+    
+            }
+
+
+    .bagdiv:hover{
+                background-color: rgb(230, 241, 74);
+                font-size: 44%;
+                color: rgb(0, 0, 0);
+                font-weight: 700;
+            
+            }
+    .img:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    .updiv i:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    
+
+     .border{
+                border: 1px solid black;
+                width: 70px;
+                border-radius: 20px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 2px;
+               
+            }
+    .border p{
+                color: black;
+                font-weight: 500;
+            
+            }
+            .shade-div{
+                display: flex;
+                gap: 2px;
+            }
+            .div1, .div2{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+            
+            }
+
+            #para-div{
+                gap: 10px;
+            }
+            
+            
+}
+
+@media (max-width:690px){
+
+    .bagdiv{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1vw;
+    top: 12%;
+    right: 20.5%;
+    }
+
+    .updiv{
+        font-size: 1vw;
+
+    }
+
+    .head{
+       
+        right:40%;
+        top: 22%;
+        font-size: 1vw;
+        
+        }
+        
+    #mainpara {
+        font-size: 1vw;
+
+        }
+
+    #mainpara h3 {
+        font-size: 2vw;
+    
+            }
+
+
+    .bagdiv:hover{
+                background-color: rgb(230, 241, 74);
+                font-size: 20%;
+                color: rgb(0, 0, 0);
+                font-weight: 700;
+            
+            }
+    .img:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    .updiv i:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    
+
+     .border{
+                border: 1px solid black;
+                width: 30px;
+                border-radius: 20px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 2px;
+               
+            }
+    .border p{
+                color: black;
+                font-weight: 500;
+            
+            }
+            .shade-div{
+                display: flex;
+                gap: 2px;
+            }
+            .div1, .div2{
+                height: 3px;
+                width: 3px;
+                border-radius: 50%;
+            
+            }
+
+            #para-div{
+                gap: 10px;
+            }
+            
+            
+}
+
+
