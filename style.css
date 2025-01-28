@@ -347,7 +347,7 @@ font-weight: 500;
             
 }
 
-@media (max-width:600px){
+@media (max-width:720px){
 
     #wrapper{
         display: flex;
