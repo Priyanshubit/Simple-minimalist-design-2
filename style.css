@@ -12,9 +12,7 @@
     background-color: beige;
     width: 100vw;
     height: 100vh;
-    padding: 2.083vw
-
-    ;
+    padding: 2.083vw;
     display: flex;
     gap: 12vw;
     justify-content: center;
@@ -370,6 +368,118 @@ font-weight: 500;
         right:40%;
         top: 22%;
         font-size: 1vw;
+        
+        }
+        
+    #mainpara {
+        font-size: 1vw;
+
+        }
+
+    #mainpara h3 {
+        font-size: 2vw;
+    
+            }
+
+
+    .bagdiv:hover{
+                background-color: rgb(230, 241, 74);
+                font-size: 20%;
+                color: rgb(0, 0, 0);
+                font-weight: 700;
+            
+            }
+    .img:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    .updiv i:hover{
+                box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+                border-radius: 0.417vw; /* Optional: Rounds the corners */
+                filter: drop-shadow(rebeccapurple);
+            }
+    
+
+     .border{
+                border: 1px solid black;
+                width: 30px;
+                border-radius: 20px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 2px;
+               
+            }
+    .border p{
+                color: black;
+                font-weight: 500;
+            
+            }
+            .shade-div{
+                display: flex;
+                gap: 2px;
+            }
+            .div1, .div2{
+                height: 3px;
+                width: 3px;
+                border-radius: 50%;
+            
+            }
+
+            #para-div{
+                gap: 10px;
+            }
+            
+            
+}
+
+@media (max-width:600px){
+
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: -190px;
+        width: 30vw;
+        height: 100vh;
+        padding: 2.083vw;
+        display: flex;
+        gap: 1vw;
+        justify-content: center;
+        padding-top: -2vw;
+        justify-content: center;
+        font-family: "Work Sans", serif;
+    }
+
+    
+    .bagdiv{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1vw;
+    top: 32%;
+    right: 72.5%;
+    }
+
+    #main-div{
+        margin: 1.042vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+    
+    }
+
+    .updiv{
+        font-size: 1vw;
+
+    }
+
+    .head{
+       
+        right:80%;
+        top: 54%;
+        font-size: 1vw;
+        transform: rotate(90deg);
         
         }
         
